@@ -1,6 +1,6 @@
 <h2>Course info</h2>
 <hr/>
-<form action="" #courseForm="ngForm">
+<form action="" #courseForm="ngForm" *ngIf="course.code != ''">
   <div class="form-group row my-4 d-flex align-items-center">
     <label for="" class="col-md-2 col-from-label text-center">Name:</label>
     <div class="col-sm-10">
